@@ -1,6 +1,9 @@
 
 import './App.css'
+import BattleNumber from './components/BattleNumber'
 import Count from './components/Count'
+import LikeCount from './components/LikeCount'
+import LikeCount2 from './components/LikeCount2'
 import MemberInfo from './components/MemberInfo'
 import Menubox from './components/Menubox'
 
@@ -47,8 +50,16 @@ function App() {
 </div> */}
    
    {/* stare 실습 */}
-  <Count/>
+  {/* <Count/> */}
 
+  {/* stare 실습2 */}
+  {/* <LikeCount/> */}
+
+   {/* stare 실습3 */}
+   {/* <LikeCount2/> */}
+  
+   {/* stare 실습3 */}
+  <BattleNumber/>
     </>
   )
 }
